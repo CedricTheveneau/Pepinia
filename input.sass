@@ -8,6 +8,7 @@ $mobileFullHeight: 95vh
 $fullWidth: 100vw
 $mobileFullWidth: 95vw
 $hoverTransition: 350ms ease-in-out
+$logoGradient: linear-gradient(90deg, rgba(231,34,135,1) 0%, rgba(244,159,128,1) 33%, rgba(239,210,85,1) 66%, rgba(91,187,162,1) 100%)
 
 *::after::before 
   
@@ -54,7 +55,8 @@ h1
     transition: $hoverTransition
 
 .btn-primary:hover
-    background-color: $mainColor
+    transition: $hoverTransition
+    background: $logoGradient
     color: #ffffff
     border: #ffffff
 
